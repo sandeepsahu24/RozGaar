@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webpage Design</title> 
-    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <script>
         function openForm() {
             document.getElementById("myForm").style.display = "block";
-            document.getElementsByClassName("main").style.filter = blur(2);
         }
         function closeForm() {
             document.getElementById("myForm").style.display = "none";
@@ -18,6 +17,15 @@
 
     <div class="main">
         <div class="navbar">
+            <div class="response" onclick="myFunction()">
+                <img class="responsive"  src="menu.png">
+                <div class="dropdown-content">
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">SERVICE</a>
+                    <a href="#">CONTACT</a>
+                </div>
+            </div>
             <div class="icon">
                 <h2 class="logo">RozGaar</h2>
             </div>
@@ -43,7 +51,7 @@
             <p class="par">Content line 1<br> Content line 2?</p>
 
                 <button class="cn"><a href="#">JOIN US</a></button>
-
+        
                 <div class="form" id="myForm">
                     <form>
                     <button type="button" class="btn_cancel" onclick="closeForm()">X</button>
