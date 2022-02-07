@@ -308,7 +308,7 @@ ul li a:hover{
     color: #3c9eee;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .response{
         margin-top: 18px;
         margin-left: 10px;
