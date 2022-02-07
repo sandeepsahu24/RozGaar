@@ -353,7 +353,8 @@ ul li a:hover{
     .btn{
         width: 80px;
         height: 30px;
-        margin-right: 20%;
+        right: 5%; 
+        position: absolute;
         border-radius: 15px;
     }
     .btn2{
