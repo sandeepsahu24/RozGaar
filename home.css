@@ -314,8 +314,11 @@ ul li a:hover{
         margin-left: 10px;
         height: 35px;
         width: 35px;
-        background-color: #3c9eee;
-        border-radius: 5px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+    } 
+    .response:hover{ 
+        background-color: #3c9eee; 
     }
     .responsive{
         display: inline-block;
@@ -328,7 +331,7 @@ ul li a:hover{
         display: none;
         position: absolute;
         border-radius: 5px;
-        background-color: #3c9eee;
+        background-color: #f1f1f1;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -338,10 +341,14 @@ ul li a:hover{
         color: black;
         padding: 12px 16px;
         text-decoration: none;
-        display: block;
+        display: block; 
+        font-family: Arial; 
+        font-weight: bold; 
+        transition: 0.3s ease-in-out;
     }
     .dropdown-content a:hover {
-        background-color: #f1f1f1
+        background-color: #3c9eee; 
+        border-radius: 10px;
     }
     .response:hover .dropdown-content{
         display: block;
